@@ -2,19 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee350b87-bb83-4753-b7a3-5068bedbc0fd" name="Default Changelist" comment="Mapeando os modelos e criando os seeds para o banco de dados">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/models/FlightLists.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/models/Flights.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/models/States.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/seeds/20191208001732-state.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/seeds/20191208022618-flights-table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/seeds/20191208024519-fligh-list-table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/block-navigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/controllers/CallController.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/controllers/FlightController.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/controllers/SessionController.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/controllers/UserController.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/controllers/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/middlewares/auth.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/middlewares/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/models/Calls.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/models/FlightLists.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/models/Flights.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/models/States.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/models/Users.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/models/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/sort-arrow-sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/sorter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__tests__/coverage/lcov.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__tests__/example.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__tests__/integration/call.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/controllers/FlightController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/controllers/SessionController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/middlewares/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodemon.json" beforeDir="false" afterPath="$PROJECT_DIR$/nodemon.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/controllers/CallController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/controllers/CallController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/controllers/UserController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/controllers/UserController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/seeds/20191208001731-user-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/seeds/20191208001731-user-table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/database.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/seeds/20191207192103-register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/migrations/20191207192103-register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/seeds/20191208001731-user-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/migrations/20191208001731-user-table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/seeds/20191208001732-state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/migrations/20191208001732-state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/seeds/20191208022618-flights-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/migrations/20191208022618-flights-table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/seeds/20191208024519-fligh-list-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/migrations/20191208024519-fligh-list-table.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
@@ -40,11 +68,22 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\Projetos\aircom\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projetos\aircom" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -58,6 +97,11 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name=".eslintrc.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file=".eslintrc.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -68,19 +112,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575763280694</updated>
-      <workItem from="1575763282418" duration="10694000" />
+      <workItem from="1575763282418" duration="10739000" />
+      <workItem from="1575803691128" duration="4501000" />
+      <workItem from="1575808223683" duration="558000" />
     </task>
+    <task id="LOCAL-00001" summary="Mapeando os modelos e criando os seeds para o banco de dados">
+      <created>1575775228449</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575775228449</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.test" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -90,6 +149,5 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Mapeando os modelos e criando os seeds para o banco de dados" />
     <option name="LAST_COMMIT_MESSAGE" value="Mapeando os modelos e criando os seeds para o banco de dados" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
