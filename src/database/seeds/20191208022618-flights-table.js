@@ -1,37 +1,50 @@
 // eslint-disable-next-line no-unsed-vars
 module.exports = {
   up: (queryInterface, Sequelize) => {
-    return queryInterface.createTable('users', {
+    return queryInterface.createTable('flights', {
       id: {
         type: Sequelize.INTEGER,
-        allowNull: false,
         autoIncrement: true,
+        allowNull: false,
         primaryKey: true,
       },
-      name: {
+      company: {
+        type: Sequelize.STRING,
+        allowNull: false,
+        uppercase: true,
+      },
+      company_url: {
+        type: Sequelize.STRING,
+        allowNull: false,
+        lowercase: true,
+      },
+      code: {
+        type: Sequelize.STRING,
+        allowNull: false,
+        unique: true,
+      },
+      origin: {
         type: Sequelize.STRING,
         allowNull: false,
       },
-      email: {
+      destiny: {
         type: Sequelize.STRING,
         allowNull: false,
       },
-      phone: {
-        type: Sequelize.STRING,
-        allowNull: false,
-      },
-      password_hash: {
-        type: Sequelize.STRING,
-        allowNull: false,
-      },
-      birth_date: {
+      departure_date: {
         type: Sequelize.DATE,
         allowNull: false,
       },
-      access_level: {
-        type: Sequelize.INTEGER,
+      arrival_date: {
+        type: Sequelize.DATE,
         allowNull: false,
-        defaultValue: 1,
+      },
+      state_id: {
+        type: Sequelize.INTEGER,
+        references: { model: 'states', key: 'id' },
+        onUpdate: 'CASCADE',
+        onDelete: 'SET NULL',
+        allowNull: false,
       },
       created_at: {
         type: Sequelize.DATE,
@@ -46,6 +59,6 @@ module.exports = {
 
   // eslint-disable-next-line no-unused-vars
   down: (queryInterface, Sequelize) => {
-    return queryInterface.dropTable('users');
+    return queryInterface.dropTable('flights');
   },
 };

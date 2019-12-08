@@ -1,11 +1,10 @@
-import axios from 'axios';
+// eslint-disable-next-line no-unsed-vars
 import Calls from '../models/Calls';
 import TVAPI from '../../service/TVAPI';
 
 class CallController {
   async index(req, res) {
     const call = await Calls.findAll();
-
     return res.json(call);
   }
 
