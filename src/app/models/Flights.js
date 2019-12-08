@@ -12,7 +12,7 @@ class Flights extends Model {
         departure_date: Sequelize.DATE,
         arrival_date: Sequelize.DATE,
         company: Sequelize.STRING,
-        company_logo: Sequelize.STRING,
+        company_url: Sequelize.STRING,
         cancelable: {
           type: Sequelize.VIRTUAL,
           get() {
@@ -29,7 +29,7 @@ class Flights extends Model {
   }
 
   static associate(models) {
-    this.belongsTo(models.States, { foreignKey: 'states_id', as: 'states' });
+    this.belongsTo(models.States, { foreignKey: 'state_id', as: 'states' });
   }
 }
 

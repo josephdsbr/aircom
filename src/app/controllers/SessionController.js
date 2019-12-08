@@ -12,17 +12,21 @@ class SessionController {
       password: Yup.string().required(),
     });
 
-    if (!(await schema.isValid(req.body)))
-      res.status(401).json({ error: 'Request data is not valid' });
+    if (!(await schema.isValid(req.body))) {
+      return res.status(401).json({ error: 'Request data is not valid' });
+    }
 
     const { email, password } = req.body;
 
     const user = await Users.findOne({ where: { email } });
 
-    if (!user) res.status(400).json({ error: 'User not found' });
+    if (!user) {
+      return res.status(400).json({ error: 'User not found' });
+    }
 
-    if (!(await user.checkPassword(password)))
-      res.status(401).json({ error: 'Password does not match' });
+    if (!(await user.checkPassword(password))) {
+      return res.status(401).json({ error: 'Password does not match' });
+    }
 
     const { id, name } = user;
 
