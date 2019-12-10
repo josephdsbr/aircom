@@ -31,9 +31,12 @@ class FlightController {
       return res.status(400).json({ error: 'Flight already exists' });
     }
 
-    const flights = await Flights.create(req.body);
-
-    return res.json(flights);
+    try {
+      const flights = await Flights.create(req.body);
+      return res.json(flights);
+    } catch (error) {
+      return res.status(405).json(error);
+    }
   }
 }
 

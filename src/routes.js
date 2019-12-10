@@ -15,6 +15,8 @@ import FlightController from './app/controllers/FlightController';
 import StateController from './app/controllers/StateController';
 import FlightListController from './app/controllers/FlightListController';
 import CheckingController from './app/controllers/CheckingController';
+import NotCheckingController from './app/controllers/NotCheckingController';
+import CheckingByFlyController from './app/controllers/CheckingByFlyController';
 
 const routes = new Router();
 routes.use(cors());
@@ -33,8 +35,12 @@ routes.post('/states', StateController.store);
 routes.get('/checkin', CheckingController.index);
 routes.post('/checkin/:id', CheckingController.store);
 
+routes.get('/not-checkin', NotCheckingController.index);
+
 routes.get('/flight-lists', FlightListController.index);
 routes.post('/flight-lists', FlightListController.store);
+
+routes.get('/flight-lists/:flyId', CheckingByFlyController.index);
 
 routes.get('/flights', FlightController.index);
 routes.post('/flights', FlightController.store);

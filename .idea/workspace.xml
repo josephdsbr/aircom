@@ -2,28 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee350b87-bb83-4753-b7a3-5068bedbc0fd" name="Default Changelist" comment="Mapeando os modelos e criando os seeds para o banco de dados">
-      <change afterPath="$PROJECT_DIR$/src/app/controllers/CheckingController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/controllers/CheckingByFlyController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/controllers/NotCheckingController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/coverage/lcov-report/controllers/CallController.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/controllers/CallController.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/coverage/lcov-report/controllers/FlightController.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/controllers/FlightController.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/coverage/lcov-report/controllers/FlightListController.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/controllers/FlightListController.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/coverage/lcov-report/controllers/SessionController.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/controllers/SessionController.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/coverage/lcov-report/controllers/StateController.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/controllers/StateController.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/coverage/lcov-report/controllers/UserController.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/controllers/UserController.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/coverage/lcov-report/controllers/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/controllers/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/coverage/lcov-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/coverage/lcov-report/middlewares/auth.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/middlewares/auth.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/coverage/lcov-report/middlewares/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/middlewares/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/coverage/lcov-report/models/Calls.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/models/Calls.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/coverage/lcov-report/models/FlightLists.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/models/FlightLists.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/coverage/lcov-report/models/Flights.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/models/Flights.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/coverage/lcov-report/models/States.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/models/States.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/coverage/lcov-report/models/Users.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/models/Users.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/coverage/lcov-report/models/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/models/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__tests__/coverage/lcov.info" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/coverage/lcov.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/controllers/CheckingController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/controllers/CheckingController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/controllers/FlightController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/controllers/FlightController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +88,7 @@
       <workItem from="1575831908476" duration="2971000" />
       <workItem from="1575849951382" duration="2403000" />
       <workItem from="1575936011167" duration="8039000" />
-      <workItem from="1575994162459" duration="1492000" />
+      <workItem from="1575994162459" duration="2967000" />
     </task>
     <task id="LOCAL-00001" summary="Mapeando os modelos e criando os seeds para o banco de dados">
       <created>1575775228449</created>

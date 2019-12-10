@@ -2,9 +2,12 @@ import FlightLists from '../models/FlightLists';
 import Flights from '../models/Flights';
 import Users from '../models/Users';
 
-class CheckingController {
+class NotCheckingController {
   async index(req, res) {
     const flightList = await FlightLists.findAll({
+      where: {
+        checking: false,
+      },
       include: [
         {
           model: Flights,
@@ -20,27 +23,6 @@ class CheckingController {
 
     return res.json(flightList);
   }
-
-  async store(req, res) {
-    const { id } = req.params;
-
-    const userFlight = await FlightLists.findByPk(id, {
-      include: [
-        {
-          model: Flights,
-          as: 'flight',
-        },
-        {
-          model: Users,
-          as: 'user',
-        },
-      ],
-    });
-
-    await userFlight.update({ checking: true });
-
-    return res.json(userFlight);
-  }
 }
 
-export default new CheckingController();
+export default new NotCheckingController();
