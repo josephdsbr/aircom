@@ -1,10 +1,9 @@
 import 'dotenv/config';
 
 import express from 'express';
-import { CronJob } from 'cron';
 import routes from './routes';
 import './database';
-
+import Schedules from './job';
 
 class App {
   constructor() {
@@ -19,6 +18,7 @@ class App {
   }
 
   job () {
+    Schedules();
     // const job = new CronJob('* * * * * *', () => {
     //     console.log('generatin backg');
     // }, null, true, 'America/Los_Angeles');
