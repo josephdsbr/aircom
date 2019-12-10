@@ -14,6 +14,7 @@ import SessionController from './app/controllers/SessionController';
 import FlightController from './app/controllers/FlightController';
 import StateController from './app/controllers/StateController';
 import FlightListController from './app/controllers/FlightListController';
+import CheckingController from './app/controllers/CheckingController';
 
 const routes = new Router();
 routes.use(cors());
@@ -28,6 +29,9 @@ routes.post('/users', UserController.store);
 routes.put('/users', UserController.update);
 
 routes.post('/states', StateController.store);
+
+routes.get('/checkin', CheckingController.index);
+routes.post('/checkin/:id', CheckingController.store);
 
 routes.get('/flight-lists', FlightListController.index);
 routes.post('/flight-lists', FlightListController.store);

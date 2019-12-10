@@ -2,9 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee350b87-bb83-4753-b7a3-5068bedbc0fd" name="Default Changelist" comment="Mapeando os modelos e criando os seeds para o banco de dados">
-      <change beforePath="$PROJECT_DIR$/src/job/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/job/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/controllers/CheckingController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__tests__/coverage/lcov-report/controllers/CallController.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/controllers/CallController.js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__tests__/coverage/lcov-report/controllers/FlightController.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/controllers/FlightController.js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__tests__/coverage/lcov-report/controllers/FlightListController.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/controllers/FlightListController.js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__tests__/coverage/lcov-report/controllers/SessionController.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/controllers/SessionController.js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__tests__/coverage/lcov-report/controllers/StateController.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/controllers/StateController.js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__tests__/coverage/lcov-report/controllers/UserController.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/controllers/UserController.js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__tests__/coverage/lcov-report/controllers/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/controllers/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__tests__/coverage/lcov-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__tests__/coverage/lcov-report/middlewares/auth.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/middlewares/auth.js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__tests__/coverage/lcov-report/middlewares/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/middlewares/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__tests__/coverage/lcov-report/models/Calls.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/models/Calls.js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__tests__/coverage/lcov-report/models/FlightLists.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/models/FlightLists.js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__tests__/coverage/lcov-report/models/Flights.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/models/Flights.js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__tests__/coverage/lcov-report/models/States.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/models/States.js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__tests__/coverage/lcov-report/models/Users.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/models/Users.js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__tests__/coverage/lcov-report/models/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/coverage/lcov-report/models/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__tests__/coverage/lcov.info" beforeDir="false" afterPath="$PROJECT_DIR$/__tests__/coverage/lcov.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,10 +44,16 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -44,22 +71,22 @@
       <recent name="D:\Projetos\aircom" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager">
     <configuration name=".eslintrc.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file=".eslintrc.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -78,6 +105,7 @@
       <workItem from="1575831908476" duration="2971000" />
       <workItem from="1575849951382" duration="2403000" />
       <workItem from="1575936011167" duration="8039000" />
+      <workItem from="1575994162459" duration="1492000" />
     </task>
     <task id="LOCAL-00001" summary="Mapeando os modelos e criando os seeds para o banco de dados">
       <created>1575775228449</created>
@@ -112,5 +140,11 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Mapeando os modelos e criando os seeds para o banco de dados" />
     <option name="LAST_COMMIT_MESSAGE" value="Mapeando os modelos e criando os seeds para o banco de dados" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="743" y="298" width="424" height="491" key="FileChooserDialogImpl" timestamp="1575982922628">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="743" y="298" width="424" height="491" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1575982922628" />
   </component>
 </project>

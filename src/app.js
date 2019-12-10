@@ -19,9 +19,6 @@ class App {
 
   job () {
     Schedules();
-    // const job = new CronJob('* * * * * *', () => {
-    //     console.log('generatin backg');
-    // }, null, true, 'America/Los_Angeles');
   }
 
   routes() {
