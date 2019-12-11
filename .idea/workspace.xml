@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee350b87-bb83-4753-b7a3-5068bedbc0fd" name="Default Changelist" comment="Mapeando os modelos e criando os seeds para o banco de dados">
-      <change beforePath="$PROJECT_DIR$/src/job/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/job/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +18,8 @@
         <option value="josephdsbr &lt;josephdsbr@gmail.com&gt;" />
       </list>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Ug1AXCNRzSysCc4IgxScI9TxRB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -77,7 +79,9 @@
       <workItem from="1575809049005" duration="18891000" />
       <workItem from="1575831908476" duration="2971000" />
       <workItem from="1575849951382" duration="2403000" />
-      <workItem from="1575936011167" duration="8039000" />
+      <workItem from="1575936011167" duration="8093000" />
+      <workItem from="1575944387110" duration="23000" />
+      <workItem from="1576026231149" duration="1622000" />
     </task>
     <task id="LOCAL-00001" summary="Mapeando os modelos e criando os seeds para o banco de dados">
       <created>1575775228449</created>
