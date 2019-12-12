@@ -19,5 +19,11 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5432/aircom</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="call_ativo@54.207.66.86" uuid="5cca4415-eb51-418d-8ac8-d6d0aaaf3497">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://54.207.66.86:5432/call_ativo</jdbc-url>
+    </data-source>
   </component>
 </project>

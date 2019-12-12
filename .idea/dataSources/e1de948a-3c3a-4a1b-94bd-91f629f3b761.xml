@@ -9,11 +9,11 @@
       <Owner>postgres</Owner>
       <IntrospectionStateNumber>819</IntrospectionStateNumber>
       <Current>1</Current>
-      <Relations>sequence|table|16938|16940|1
+      <Relations>sequence|table|16987|16989|1
+sequence|table|16938|16940|1
 sequence|table|16949|16951|1
 sequence|table|16961|16963|1
 sequence|table|16969|16971|1
-sequence|table|16987|16989|1
 </Relations>
     </database>
     <database id="3" parent="1" name="postgres">

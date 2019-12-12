@@ -11,13 +11,7 @@ class CallController {
   async store(req, res) {
     const { phone, message, type } = req.body;
 
-    /*
-    * type 1: Call
-    * type 2: SMS
-    * */
-
     try {
-
       let data = null;
 
       switch (type) {
