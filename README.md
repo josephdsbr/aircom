@@ -6,6 +6,8 @@
   </a>
 </p>
 
+# Jest Testing
+
 <div class='wrapper'>
 <table class="coverage-summary">
 <thead>
