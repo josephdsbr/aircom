@@ -29,7 +29,7 @@ class FlyAlertsController {
     const message = FlyAlertMessage(type, fly);
 
     if (message === null) {
-      return res.status(400).json({ error: 'Inválido type ' });
+      return res.status(400).json({ error: 'Invalid type ' });
     }
 
     flight.map(async f => {

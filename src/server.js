@@ -2,4 +2,4 @@ import cors from 'cors';
 import app from './app';
 
 app.use(cors());
-app.listen(3333);
+app.listen(3334);

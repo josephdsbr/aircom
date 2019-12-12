@@ -47,5 +47,6 @@ routes.get('/flight-lists/:flyId', CheckingByFlyController.index);
 
 routes.get('/flights', FlightController.index);
 routes.post('/flights', FlightController.store);
+routes.put('/flights/:flyId', FlightController.update);
 
 module.exports = routes;

@@ -25,3 +25,11 @@ Y
 +src/app/controllers/FlightListController.js,6/4/644e7c0d73f35e08043fa65eb353f5f59e5aa1fd
 W
 'src/app/controllers/FlightController.js,5/c/5c59991bd89daa86bdf19481c831a5447054e461
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+Z
+*src/app/controllers/FlyAlertsController.js,4/b/4b9e9153c6a96769f421f8f1d173ab919342e673
+g
+7src/database/migrations/20191208022618-flights-table.js,6/6/6663e7f1fab5b3edb6b6ba4582abaa032e919875
+I
+src/app/models/Flights.js,e/9/e9a2d0c902483f95fcf8292167dd454d0157f16e
