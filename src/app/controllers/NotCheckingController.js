@@ -3,7 +3,7 @@ import Flights from '../models/Flights';
 import Users from '../models/Users';
 
 class NotCheckingController {
-  /*Not checked*/
+  /*Not checkedgi*/
   async index(req, res) {
     const flightList = await FlightLists.findAll({
       where: {
