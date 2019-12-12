@@ -1,5 +1,6 @@
 import FlightLists from '../models/FlightLists';
 import Flights from '../models/Flights';
+import Users from '../models/Flights';
 
 class CheckingByFlyController {
   async index(req, res) {
@@ -12,6 +13,10 @@ class CheckingByFlyController {
           model: Flights,
           as: 'flight',
         },
+        {
+          model: Users,
+          as: 'user'
+        }
       ],
     });
 
