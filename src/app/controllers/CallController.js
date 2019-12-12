@@ -9,18 +9,40 @@ class CallController {
   }
 
   async store(req, res) {
-    const { phone, message } = req.body;
-    const data = await TVAPI.tts.enviar(phone, message);
+    const { phone, message, type } = req.body;
 
-    const call = await Calls.create({
-      phone,
-      message_send: message,
-      message_received: data.mensagem,
-      status: data.status,
-      success: data.status === 200,
-    });
+    /*
+    * type 1: Call
+    * type 2: SMS
+    * */
 
-    res.json(call);
+    try {
+
+      let data = null;
+
+      switch (type) {
+        case 1:
+          data = await TVAPI.tts.enviar(phone, message);
+          break;
+        case 2:
+          data = await TVAPI.sms.enviar(phone, message);
+          break;
+        default:
+          data = await TVAPI.tts.enviar(phone, message);
+      }
+
+      const call = await Calls.create({
+        phone,
+        message_send: message,
+        message_received: data.mensagem,
+        status: data.status,
+        success: data.status === 200,
+      });
+
+      res.json(call);
+    } catch (e) {
+      res.json(e);
+    }
   }
 }
 
