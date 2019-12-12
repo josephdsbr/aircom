@@ -27,6 +27,10 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false,
       },
+      port: {
+        type: Sequelize.STRING,
+        allowNull: false,
+      },
       destiny: {
         type: Sequelize.STRING,
         allowNull: false,

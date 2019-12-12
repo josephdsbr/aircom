@@ -9,6 +9,7 @@ class Flights extends Model {
         code: Sequelize.STRING,
         origin: Sequelize.STRING,
         destiny: Sequelize.STRING,
+        port: Sequelize.STRING,
         departure_date: Sequelize.DATE,
         arrival_date: Sequelize.DATE,
         company: Sequelize.STRING,
@@ -22,7 +23,7 @@ class Flights extends Model {
       },
       {
         sequelize,
-      },
+      }
     );
 
     return this;
