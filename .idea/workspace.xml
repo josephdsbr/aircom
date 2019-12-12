@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee350b87-bb83-4753-b7a3-5068bedbc0fd" name="Default Changelist" comment="Mapeando os modelos e criando os seeds para o banco de dados">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/d/6d89c065ab8f726b88ea015b61340f29a1bd7083" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/d/6d89c065ab8f726b88ea015b61340f29a1bd7083" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/query-import-data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/query-import-data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/controllers/FlightController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/controllers/FlightController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/controllers/FlyAlertsController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/controllers/FlyAlertsController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.js" afterDir="false" />
-    </list>
+    <list default="true" id="ee350b87-bb83-4753-b7a3-5068bedbc0fd" name="Default Changelist" comment="Mapeando os modelos e criando os seeds para o banco de dados" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -124,7 +112,7 @@
       <workItem from="1576106664074" duration="1110000" />
       <workItem from="1576109367935" duration="9000" />
       <workItem from="1576118366073" duration="4492000" />
-      <workItem from="1576167217998" duration="1653000" />
+      <workItem from="1576167217998" duration="1921000" />
     </task>
     <task id="LOCAL-00001" summary="Mapeando os modelos e criando os seeds para o banco de dados">
       <created>1575775228449</created>
