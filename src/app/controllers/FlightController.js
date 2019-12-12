@@ -12,6 +12,7 @@ class FlightController {
       company: Yup.string().required(),
       company_url: Yup.string().required(),
       code: Yup.string().required(),
+      port: Yup.string().required(),
       origin: Yup.string().required(),
       destiny: Yup.string().required(),
       departure_date: Yup.date().required(),
