@@ -29,7 +29,7 @@
     "pg-hstore": "^2.3.3",
     "readme-md-generator": "^1.0.0",
     "sequelize": "^5.21.2",
-    "socket.io": "^2.3.0",
+    "socket.io": "^2.4.0",
     "supertest": "^4.0.2",
     "totalvoice-node": "^1.8.0",
     "yup": "^0.27.0"
